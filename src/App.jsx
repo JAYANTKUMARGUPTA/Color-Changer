@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import "./App.css";
 
 function App() {
-  // State to store the current color input
+  
   const [color, setColor] = useState("");
 
-  // Handle input change
+  
   const handleInputChange = (e) => setColor(e.target.value);
 
   return (
